@@ -1,0 +1,16 @@
+bin/
+obj/
+publish/
+
+*.user
+*.userosscache
+*.sln.docstates
+
+.devcontainer/
+.vs/
+.vscode/
+
+*.log
+
+Thumbs.db
+desktop.ini
