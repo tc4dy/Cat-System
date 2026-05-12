@@ -1,11 +1,3 @@
-﻿/*
- * ==============================================================================
- * PROJECT     : Cat-System PRO (Advanced Windows Optimizer & Privacy Guard)
- * DEVELOPER   : Tc4dy
- * DESCRIPTION : Disables Windows telemetry/spyware and optimizes system 
- * performance in a single, unified environment
- */
-
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
