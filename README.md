@@ -1,4 +1,4 @@
-![Cat-System](catsystem.jpg)
+![Cat-System](catsystem-banner.svg)
 
 # 🐾 Cat-System v4.0
 
