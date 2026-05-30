@@ -24,6 +24,8 @@ Cat-System is a modular Windows optimization tool. Each module runs independentl
 
 ---
 
+![Cat-System-Icon](catsystem.svg)
+
 ## 🔨 Build
 
 **Requirements:**
