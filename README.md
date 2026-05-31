@@ -34,8 +34,7 @@ Cat-System is a modular Windows optimization tool. Each module runs independentl
 
 ```bash
 git clone https://github.com/tc4dy/Cat-System.git
-cd c
-Cat-System
+cd Cat-System
 
 # Build
 dotnet build -c Release
