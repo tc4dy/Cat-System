@@ -6,7 +6,7 @@
 
 ---
 
-Cat-System is a modular Windows optimization tool. Each module runs independently, all changes are logged, and everything can be reverted with a single command.
+Cat-System is a modular Windows optimization tool. Each module runs independently, all changes are logged, and everything can be reverted with a single command. | Single File & Moduler Mode
 
 ---
 
