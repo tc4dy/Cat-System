@@ -1,6 +1,6 @@
 ![Cat-System](catsystem-banner.svg)
 
-# 🐾 Cat-System v4.1
+# Cat-System v4.1
 
 > **By:** Tc4dy &nbsp;|&nbsp; **Platform:** Windows 10/11 &nbsp;|&nbsp; **Language:** PowerShell 5.1 / 7.x &nbsp;|&nbsp; **Requires:** Administrator
 
@@ -14,19 +14,19 @@ Cat-System is a modular Windows optimization tool. Each module runs independentl
 
 | Module | What it does |
 |---|---|
-| 🛡️ **Ghost Protocol** | Disables telemetry, ad tracking, Bing search in Start, location, Activity History and consumer features — also blocks telemetry hosts, disables scheduled tasks and stops diagnostic services |
-| ⚡ **Sculptor Engine** | Throttles background processes, activates High Performance power plan, tunes memory settings |
-| 🚀 **Net Booster** | Flushes DNS cache, resets Winsock/TCP stack, configures TCP parameters and DNS cache TTL |
-| 🧹 **Browser Cleaner** | Wipes cache, cookies and history for Chrome, Edge, Firefox, Opera and Brave |
-| ⚙️ **Startup Manager** | Lists, adds and removes startup entries from both Registry and Startup folder |
-| 🧹 **System Cleaner** | Clears temp folders, Windows logs and Prefetch cache — also runs DISM and Storage Sense |
-| ⏪ **Rollback** | Reverts every registry, file, scheduled task and hosts change made during the session |
+| [+] **Ghost Protocol** | Disables telemetry, ad tracking, Bing search in Start, location, Activity History and consumer features — also blocks telemetry hosts, disables scheduled tasks and stops diagnostic services |
+| [+] **Sculptor Engine** | Throttles background processes, activates High Performance power plan, tunes memory settings |
+| [+] **Net Booster** | Flushes DNS cache, resets Winsock/TCP stack, configures TCP parameters and DNS cache TTL |
+| [+] **Browser Cleaner** | Wipes cache, cookies and history for Chrome, Edge, Firefox, Opera and Brave |
+| [+] **Startup Manager** | Lists, adds and removes startup entries from both Registry and Startup folder |
+| [+] **System Cleaner** | Clears temp folders, Windows logs and Prefetch cache — also runs DISM and Storage Sense |
+| [+] **Rollback** | Reverts every registry, file, scheduled task and hosts change made during the session |
 
 ---
 
 ![Cat-System-Icon](catsystem.svg)
 
-## 🔨 Build
+## Build
 
 **Requirements:**
 - Windows 10 or 11
@@ -51,7 +51,7 @@ For the single-file portable version, run `CatSystem.ps1` from any directory —
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. Right-click `Start-CatSystem.ps1` → **Run with PowerShell** (or launch from an elevated terminal)
 2. Pick a module number from the menu
@@ -60,13 +60,13 @@ For the single-file portable version, run `CatSystem.ps1` from any directory —
 
 ---
 
-## 🔒 Rollback & Safety
+## Rollback & Safety
 
 Every registry value, file, scheduled task and hosts entry is backed up to `CatSystem_Rollback/` before anything is touched. The Rollback module restores all of them in one shot. Hosts modifications are tracked with begin/end markers, so only Cat-System's own block is removed on rollback — not the entire file.
 
 ---
 
-## 📋 Notes
+## Notes
 
 - **Net Booster** and **Sculptor Engine** require a restart for some changes to apply
 - Close browsers before running **Browser Cleaner**
