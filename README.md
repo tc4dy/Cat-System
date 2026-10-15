@@ -72,7 +72,7 @@ Every registry value, file, scheduled task and hosts entry is backed up to `CatS
 - Close browsers before running **Browser Cleaner**
 - DISM cleanup can take a few minutes depending on the WinSxS store size
 - All registry tweaks go through the Group Policy layer (`Software\Policies`) — system-wide and persistent
-- Rollback only covers changes made during the current session; clearing the backup folder makes them permanent
+- **Rollback** only covers changes made during the current session; clearing the backup folder makes them permanent
 
 ---
 
